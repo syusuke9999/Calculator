@@ -1,0 +1,7 @@
+c:\users\digni\Source\Repos\Calculator\Calculator\bin\Debug\Calculator.exe.config
+c:\users\digni\Source\Repos\Calculator\Calculator\bin\Debug\Calculator.exe
+c:\users\digni\Source\Repos\Calculator\Calculator\bin\Debug\Calculator.pdb
+c:\users\digni\Source\Repos\Calculator\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+c:\users\digni\Source\Repos\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+c:\users\digni\Source\Repos\Calculator\Calculator\obj\Debug\Calculator.exe
+c:\users\digni\Source\Repos\Calculator\Calculator\obj\Debug\Calculator.pdb
