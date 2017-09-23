@@ -16,8 +16,16 @@ namespace Calculator
             //create instance of ExCalculator class, whitch inherit Calculator class
             ExCalculator c2 = new ExCalculator();
 
-            c2.Num1 = 10;
-            c2.Num2 = 3;
+
+            Console.WriteLine("Input first number");
+            var n1 = int.Parse(Console.ReadLine());
+
+            Console.Write("Input second number");
+            var n2 = int.Parse(Console.ReadLine());
+
+            c2.Num1 = n1;
+            c2.Num2 = n2;
+
             //display result of addtion and subtraction
             c2.Add();
             c2.Sub();
