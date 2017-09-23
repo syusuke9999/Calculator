@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calculator
 {
-    class Calculator
+    class Calculators
     {
         //first number
         protected int num1;

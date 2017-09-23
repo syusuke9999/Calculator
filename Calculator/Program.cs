@@ -10,28 +10,31 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            //create instance of Calculator class
-            Calculator c1 = new Calculator();
-
             //create instance of ExCalculator class, whitch inherit Calculator class
-            ExCalculator c2 = new ExCalculator();
+            FunctionCalculator calc = new FunctionCalculator();
 
-
+            //Get first number from command line
             Console.WriteLine("Input first number");
             var n1 = int.Parse(Console.ReadLine());
 
-            Console.Write("Input second number");
+            //Get second number from command line
+            Console.WriteLine("Input second number");
             var n2 = int.Parse(Console.ReadLine());
 
-            c2.Num1 = n1;
-            c2.Num2 = n2;
+            calc.Num1 = n1;
+            calc.Num2 = n2;
 
             //display result of addtion and subtraction
-            c2.Add();
-            c2.Sub();
+            calc.Add();
+            calc.Sub();
+
             //display result of multiplication and division
-            c2.Mul();
-            c2.Div();
+            calc.Mul();
+            calc.Div();
+
+            //display result of exponentiation and residue
+            calc.Exp();
+            calc.Modulo();
         }
     }
 }

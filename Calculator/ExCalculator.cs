@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Calculator
 {
     //ExCalculator class whitch inherit Calculator class
-    class ExCalculator : Calculator
+    class ExCalculator : Calculators
     {
         //multiplication
         public void Mul() {
@@ -19,7 +19,7 @@ namespace Calculator
                 Console.WriteLine("Divided by Zero");
             }
             else {
-                Console.WriteLine("{0} / {1} = {2}", num1, num2, num1 / num2);
+                Console.WriteLine("{0} / {1} = {2}", num1, num2, (double) num1 / num2);
             }
         }
     }
